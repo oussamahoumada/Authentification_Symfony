@@ -7,8 +7,12 @@
 + PHP 7.4.3
 + MYSQL
 
-## run
-+ symfony serve -d
+## Base de donée
++ Dans mysql créez une base de donnée "symfony_auth" et dans votre terminal lancez les commandes 
+    + "Symfony console make:migration"
+    + "Symfony console doctrine:migrations:migrate"
+
++ symfony server:start pour lancer
 
 ## 
 + 127.0.0.1:8000/Connection
